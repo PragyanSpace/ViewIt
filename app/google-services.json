@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402327419831",
+    "project_id": "viewit-bdd5a",
+    "storage_bucket": "viewit-bdd5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402327419831:android:cb3c088288c47949990632",
+        "android_client_info": {
+          "package_name": "com.example.viewit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402327419831-t7v6kk62j57kilqlicumc9l8vepcofrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYhDmH1S3s_6c5uEmhSIbQ_e3n_PvOZgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402327419831-t7v6kk62j57kilqlicumc9l8vepcofrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
