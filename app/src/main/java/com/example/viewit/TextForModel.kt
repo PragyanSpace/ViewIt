@@ -22,7 +22,6 @@ class TextForModel() : AppCompatActivity(){
                 var intent: Intent =Intent(this@TextForModel,ARActivity::class.java)
                 intent.putExtra("model_name", list[position])
                 startActivity(intent)
-                finish()
             }
 
         })

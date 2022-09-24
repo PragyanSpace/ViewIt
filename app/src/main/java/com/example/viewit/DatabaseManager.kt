@@ -6,14 +6,14 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 
 class DatabaseManager(context: Context) {
-    lateinit var dbHelper:DatabaseHelper
+
     lateinit var context:Context
-    lateinit var database:SQLiteDatabase
+    val dbHelper:DatabaseHelper= DatabaseHelper(context)
+    val database:SQLiteDatabase=dbHelper.writableDatabase
 
     public fun open():DatabaseManager
     {
-        dbHelper= DatabaseHelper(context)
-        database=dbHelper.writableDatabase
+
         return this
     }
     public fun close()

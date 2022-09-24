@@ -47,7 +47,6 @@ class CameraActivity : AppCompatActivity() {
                         }
                     }
                 }
-                println("Size of the list"+list.size)
                 var intent: Intent =Intent(this,TextForModel::class.java)
                 intent.putExtra("words",list)
                 startActivity(intent)
