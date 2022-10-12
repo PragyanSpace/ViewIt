@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TextForModel">
+    tools:context=".ui.TextForModel">
     <TextView
         android:id="@+id/tV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:layout_marginTop="10dp"
-        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
         android:text="Select Model:"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,7 +22,6 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/background"
         android:id="@+id/recView"
         app:layout_constraintTop_toBottomOf="@id/tV"
         app:layout_constraintBottom_toBottomOf="parent"

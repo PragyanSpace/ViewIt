@@ -16,26 +16,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewIt"
         android:usesCleartextTraffic="true"
-        android:fitsSystemWindows="true"
         tools:targetApi="31">
         <activity
-            android:name=".TextForModel"
-            android:exported="false" />
-        <activity
-            android:name=".ARActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CameraActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".ui.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.Help"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.TextForModel"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ARActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
         </activity>
 
         <meta-data
