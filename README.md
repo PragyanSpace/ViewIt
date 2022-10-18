@@ -21,7 +21,7 @@ Youtube link:- https://youtu.be/pT7FCTeLppk
 
 Home Screen
 
-![Main screen](screenshots/main.jpg)
+![Main screen](screenshots/main.png)
 
 Type to get model
 
