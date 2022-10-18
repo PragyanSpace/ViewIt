@@ -37,4 +37,4 @@ AR activity
 
 Help activity
 
-![Help screen]https://user-images.githubusercontent.com/73965147/196347422-5364d901-69fb-4bb9-a001-5a5e75a86adf.png)
+![Help screen](https://user-images.githubusercontent.com/73965147/196347422-5364d901-69fb-4bb9-a001-5a5e75a86adf.png)
